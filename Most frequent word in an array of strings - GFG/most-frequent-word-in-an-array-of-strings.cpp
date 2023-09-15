@@ -22,7 +22,8 @@ class Solution
         string ans;
         int it=0;
         for(int i=0;i<n;i++){
-            if(mp[arr[i]]>=it){
+            if(mp[arr[i]]>=it)
+            {
                 it=mp[arr[i]];
                 mp[arr[i]]=0;
                 ans=arr[i];
