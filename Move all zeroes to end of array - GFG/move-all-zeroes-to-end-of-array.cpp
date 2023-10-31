@@ -10,13 +10,15 @@ public:
 	    // code here
 	    int l=0;
        
-       for(int i=0; i<n;i++){
+       for(int i=0; i<n;i++)
+       {
            
            if(arr[l]!=0)
            {
                l++;
            }
-           else if(arr[i]!= 0){
+           else if(arr[i]!= 0)
+           {
                swap(arr[i], arr[l++]);
            }
        }
